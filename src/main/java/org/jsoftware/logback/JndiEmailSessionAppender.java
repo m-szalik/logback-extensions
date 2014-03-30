@@ -9,7 +9,7 @@ import javax.naming.InitialContext;
  * @author szalik
  */
 public class JndiEmailSessionAppender<E> extends AbstractEmailSessionAppender<E> {
-    public static final String JNDI_JAVA_COMP_ENV = "java:comp/env";
+    private static final String JNDI_JAVA_COMP_ENV = "java:comp/env";
     private String jndi = "mail/Session";
 
     /**
