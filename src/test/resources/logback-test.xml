@@ -12,7 +12,7 @@
         </layout>
         <xmmpAccount>xmmpappender@jabber.cz</xmmpAccount>
         <password>qazxswedc</password>
-        <sendToJid>maxoo88@gmail.com</sendToJid>
+        <sendToJid>your@Jabber.account</sendToJid>
     </appender>
 
 
