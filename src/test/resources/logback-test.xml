@@ -6,13 +6,13 @@
         </layout>
     </appender>
 
-    <appender name="JABBER" class="org.jsoftware.logback.XmmpAppender">
+    <appender name="JABBER" class="ch.qos.logback.classic.net.XmmpAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
             <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
         </layout>
-        <xmmpAccount>jid@jabber.org</xmmpAccount>
-        <password>jidPassword</password>
-        <sendToJid>sendToJid@jabber.org</sendToJid>
+        <xmmpAccount>xmmpappender@jabber.cz</xmmpAccount>
+        <password>qazxswedc</password>
+        <sendToJid>maxoo88@gmail.com</sendToJid>
     </appender>
 
 

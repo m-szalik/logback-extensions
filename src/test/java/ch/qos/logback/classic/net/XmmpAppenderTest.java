@@ -1,4 +1,4 @@
-package org.jsoftware.logback;
+package ch.qos.logback.classic.net;
 
 import org.junit.After;
 import org.junit.Test;
@@ -15,6 +15,8 @@ public class XmmpAppenderTest {
 		logger.warn("Test message 2");
 	}
 
+
+
 	@Test 
 	public void testMessageWithException() {
 		Logger logger = LoggerFactory.getLogger(getClass());
@@ -29,6 +31,6 @@ public class XmmpAppenderTest {
 	
 	@After
 	public void waitFor() throws InterruptedException {
-		Thread.sleep(1000);
+        Thread.sleep(800);
 	}
 }
